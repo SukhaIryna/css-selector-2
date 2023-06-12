@@ -31,6 +31,7 @@ margin: 0 auto;
 }
 .nav_inline > nav_link:not(:last-child) {
     margin-right: 24px;
+   
 }
 .nav_vertical > .nav_link:not(:last-child) {
     margin-bottom: 12px;
