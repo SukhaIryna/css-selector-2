@@ -37,7 +37,7 @@ min-height: 1340px;
 width: 100%;
 display: flex;
 flex-direction: column;
-gap: 60px;
+gap: 30px;
 }
 
 .header {
@@ -239,10 +239,10 @@ max-height: 380px;
 padding: 0 var(--space-l);
 }
 
-.card_mark_image {
+.card_mark > image {
 flex-direction: column;
 vertical-align: top;
-max-width: 320px;
+width: 100%;
 min-height: 200px;
 align-items:flex-start;
 padding: var(--space-m);
@@ -272,7 +272,7 @@ color: var(--color-text);
 position: relative;
 }
 
-.card_mark .badge {
+.card_mark > .badge {
 display: flex;
 position: absolute;
 bottom: var(--space-m);
@@ -327,12 +327,13 @@ padding: var(--space-l);
 text-decoration: none;
 }
 
-.footer_copyright {
+.footer >.copyright {
 font-size: var(--size-s);
 color: var(--color-text);
 flex-direction: column;
 justify-self: end;
 margin-right: 0;
+width: 100%;
 }
 
 

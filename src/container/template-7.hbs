@@ -44,8 +44,8 @@
 <div class="articles">
   {{#each articles}}
   <div class="card">
-    <div class="mark">
-      <img src="{{photo}}" alt="Hero image" class="image">
+    <div class="card_mark">
+      <img src="{{photo}}" alt="Card image" class="image">
       {{#if isNew}}<a class="badge">NEW</a>{{/if}}
     </div>
 
@@ -70,7 +70,7 @@
   {{/each}}
 
   <div>
-    <span class="footer_copyright">{{copyright}}</span>
+    <span class="copyright">{{copyright}}</span>
   </div>
 
   {{/with}}
